@@ -1,0 +1,18 @@
+[
+  {
+    "isSelected": true,
+    "productCover": "https://images.unsplash.com/photo-1541795795328-f073b763494e?ixlib=rb-0.3.5",
+    "productName": "巧克力",
+    "productInfo": "甜点",
+    "productPrice": 129,
+    "prductNum": 2
+  },
+  {
+    "isSelected": true,
+    "productCover": "https://images.unsplash.com/photo-1541795795328-f073b763494e?ixlib=rb-0.3.5",
+    "productName": "小米 max3",
+    "productInfo": "全面屏",
+    "productPrice": 3299,
+    "prductNum": 1
+  }
+]

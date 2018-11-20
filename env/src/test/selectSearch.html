@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>selectSearch</title>
+  <link href="../../static/css/chosen.css" rel="stylesheet">
+</head>
+<body>
+
+<script type="text/javascript">
+  /*$(function () {
+    $(".select2").select2();
+  });*/
+</script>
+<select data-placeholder="选择城市" class="select-chosen">
+  <!-- 只用第一个option值为空的时候才会显示data-placeholder的值，否则显示第一个option的值 -->
+  <option value=""></option>
+  <option value="1">上海</option>
+  <option value="2">北京</option>
+  <option value="3">深圳</option>
+  <option value="4">西安</option>
+  <option value="5">宝鸡</option>
+  <option value="6">商洛</option>
+  <option value="7">铜川</option>
+  <option value="8">安康</option>
+  <option value="9">渭南</option>
+  <option value="10">辽宁</option>
+  <option value="11">大连</option>
+  <option value="12">南京</option>
+  <option value=13"">杭州</option>
+  <option value=14"">西宁</option>
+</select>
+<script type="text/javascript" src="../../static/js/jquery-1.8.3.min.js" ></script>
+<script type="text/javascript" src="../../static/js/chosen.jquery.min.js" ></script>
+<script type="text/javascript">
+  $(function(){
+    //给select标签绑定下拉搜索事件（可自定义参数，具体参考官方文档）
+    $(".select-chosen").chosen({
+      no_results_text: "没有找到搜索的结果!",//没有搜到结果时显示的值
+      width: "250px",//下拉选框的宽度
+      allow_single_deselect: true //选择后允许编辑
+    });
+  });
+</script>
+
+
+</body>
+</html>
